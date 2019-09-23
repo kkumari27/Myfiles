@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+
+<style>
+    body {
+        background-color: rgb(19,201,201);
+    }
+
+    .container {
+        width:80%;
+        padding: 
+    }
+
+    form {
+        background-color: white;
+        padding: 20px;
+    }
+    h2, p{
+        text-align: center;
+    }
+
+    button {
+  margin:0 auto;
+  display:block;
+}
+
+
+</style>
+</head>
+
+<body>
+   <div class="container">
+    <h2>Survey Form</h2>
+    
+
+    <form class="form-horizontal" action="" method="get">
+            <p>Let us know how we can improve freeCodeCamp</p>
+        <div class="form-group">
+            <label  class="control-label col-sm-2" for="Name">
+                *Name
+            </label>
+            <div class="col-sm-10">
+                    <input type="text" placeholder="Enter your Name" class="form-control">
+            </div>
+        </div>
+
+        <div class="form-group">
+                <label  class="control-label col-sm-2" for="Name">
+                    *Email
+                </label>
+                <div class="col-sm-10">
+                        <input type="email" placeholder="Enter your Email" class="form-control">
+                </div>
+        </div>
+
+        <div class="form-group">
+                <label  class="control-label col-sm-2" for="Name">
+                    *Age
+                </label>
+                <div class="col-sm-10">
+                        <input type="number" placeholder="Age" class="form-control">
+                </div>
+        </div>
+
+
+
+        <div class="form-group">
+                <label  class="control-label col-sm-2" for="Name">
+                    which option best describe your current role?
+                </label>
+                <div class="col-sm-10">
+
+                        <select class="form-control" id="sel1">
+                            <option>Student</option>
+                            <option>Teacher</option>
+                            <option>Engineer</option>
+                            <option>Doctor</option>
+                        </select>
+                </div>
+
+            
+         </div>
+
+         <div class="form-group">
+                <label  class="control-label col-sm-2" for="Name">
+                       *How likely is that you would recommend your friend FreecodeCamp? 
+                </label>
+                <div class="col-sm-10">
+                        <div class="checkbox">
+                            <label><input type="radio" value="">Definetly</label>
+                          </div>
+
+                        <div class="checkbox">
+                            <label><input type="radio" value="">Sure</label>
+                     </div>
+                     <div class="checkbox">
+                            <label><input type="radio" value="">Not Sure</label>
+                     </div>
+                     </div>
+                    </div>
+
+
+            <div class="form-group">
+                    <label  class="control-label col-sm-2" for="Name">
+                        What do you like most in FCC?
+                    </label>
+                    <div class="col-sm-10">
+    
+                            <select class="form-control" id="sel1">
+                                <option>select an option</option>
+                                <option>code</option>
+                                <option>compiler</option>
+                                <option>layout</option>
+                            </select>
+                    </div>
+    
+                
+            </div>
+
+
+            <div class="form-group">
+                    <label  class="control-label col-sm-2" for="Name">
+                            Things that should be imoroved in the future(check all that apply)
+                    </label>
+                    <div class="col-sm-10">
+                        <div class="checkbox">
+                                <label><input type="checkbox" value="">Frontend project</label>
+                         </div>
+
+                         <div class="checkbox">
+                                <label><input type="checkbox" value="">Backend project</label>
+                         </div>
+                         <div class="checkbox">
+                                <label><input type="checkbox" value="">Frontend project</label>
+                         </div>
+                         <div class="checkbox">
+                                <label><input type="checkbox" value="">Data Visulization</label>
+                         </div>
+                         <div class="checkbox">
+                                <label><input type="checkbox" value="">OSQ</label>
+                         </div>
+                         <div class="checkbox">
+                                <label><input type="checkbox" value="">Gitter help rooms</label>
+                         </div>
+                         <div class="checkbox">
+                                <label><input type="checkbox" value="">Videos</label>
+                         </div>
+                         <div class="checkbox">
+                                <label><input type="checkbox" value="">City help rooms</label>
+                         </div>
+                         <div class="checkbox">
+                                <label><input type="checkbox" value="">Wiki</label>
+                         </div>
+                         <div class="checkbox">
+                                <label><input type="checkbox" value="">Forums</label>
+                         </div>
+                         <div class="checkbox">
+                                <label><input type="checkbox" value="">Additional forums</label>
+                         </div>
+                           
+                           
+                    </div>
+                </div>
+                    
+        
+                    
+    
+                
+            
+
+            <div class="form-group">
+                    <label  class="control-label col-sm-2" for="Name">
+                        Any suggestions or comments
+                    </label>
+                    <div class="col-sm-10">
+    
+                            <textarea class="form-control" rows="5" id="comment" placeholder="Enter your comments here..."></textarea>
+                    </div>
+            </div>
+
+
+            <div class="form-group">
+                    <button type="button" class="btn btn-primary btn-md" style="margin-left: 20%">Submit</button>
+            </div>
+            
+                
+        
+
+    </form>
+
+
+
+
+   </div>
+    
+</body>
+</html>
